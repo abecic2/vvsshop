@@ -1,0 +1,37 @@
+@host = http://localhost:5080
+
+### Varijanta A – registracija
+POST {{host}}/api/racun-a/registracija
+Content-Type: application/json
+
+{ "korisnickoIme": "amina", "lozinka": "DugaLozinka2026!" }
+
+### Varijanta A – prijava
+POST {{host}}/api/racun-a/prijava
+Content-Type: application/json
+
+{ "korisnickoIme": "amina", "lozinka": "DugaLozinka2026!" }
+
+### Varijanta B – registracija
+POST {{host}}/api/racun-b/registracija
+Content-Type: application/json
+
+{ "korisnickoIme": "amina", "lozinka": "DugaLozinka2026!" }
+
+### Varijanta B – prijava
+POST {{host}}/api/racun-b/prijava
+Content-Type: application/json
+
+{ "korisnickoIme": "amina", "lozinka": "DugaLozinka2026!" }
+
+### Varijanta C – registracija
+POST {{host}}/api/racun-c/registracija
+Content-Type: application/json
+
+{ "korisnickoIme": "amina", "lozinka": "DugaLozinka2026!" }
+
+### Varijanta C – prijava
+POST {{host}}/api/racun-c/prijava
+Content-Type: application/json
+
+{ "korisnickoIme": "amina", "lozinka": "DugaLozinka2026!" }
